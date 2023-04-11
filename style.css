@@ -115,7 +115,7 @@ body h2 {
 }
 
 body p {
-	color: #595959;
+	color: #2b2b2b;
 	font-size: 18px;
 	line-height: 20px;
 }
@@ -125,7 +125,7 @@ body a {
 }
 
 hr {
-	border-top: 2px dashed #14c6b6!important;
+	border-top: 2px dashed #3EE6C7!important;
 	opacity: 1!important;
 	margin: 40px 0px!important;
 	margin: 40px auto!important;
@@ -134,7 +134,7 @@ hr {
 
 /*HEADER*/
 #header {
-	background-color: #14c6b6;
+	background-color: #1492CC;
 	color: #fff;
 	font-weight: 500;
 	font-size: 14px;
@@ -172,7 +172,7 @@ hr {
     right: 0;
     align-items: center;
     height: 130px;
-    background: linear-gradient(#083e6270,#fff0);
+    background: linear-gradient(#0B249670,#fff0);
 }
 #navigaatio .naw-wrap {
 	display: flex;
@@ -202,7 +202,7 @@ hr {
 	transition: 0.5s;
 }
 #navigaatio ul li a:hover {
-	color: #242fa7;
+	color: #0B2496;
 }
 
 /*LOGO*/
@@ -222,7 +222,7 @@ hr {
 }
 #logo a span:nth-child(3) {
 	margin-left: 35px;
-	color: #14c6b6;
+	color: #3EE6C7;
 }
 
 /*KUVAKKEET*/
@@ -255,14 +255,14 @@ hr {
 #banneri h1 {
 	background-color: #fff;
 	padding: 18px 30px;
-	color: #242fa7;
+	color: #0B2496;
 }
 
 /*PAINIKKEET*/
 a.nappi {
 	display: block;
 	min-width: 150px;
-	background-color: #137fc7;
+	background-color: #1492CC;
 	text-align: center;
 	color: #fff;
 	padding: 15px 12px;
@@ -299,7 +299,7 @@ a.nappi:hover {
 }
 .nosto .kuvakkeet i {
 	margin-right:15px;
-	color: #242fa7;
+	color: #0B2496;
 }
 .info {
 	width: 250px;
@@ -307,10 +307,10 @@ a.nappi:hover {
 }
 .info h3 {
 	font-size: 16px;
-	color: #137fc7;
+	color: #1492CC;
 }
 .info p {
-	color: #242fa7;
+	color: #0B2496;
 }
 .info span {
 	font-size: 14px;
@@ -322,7 +322,7 @@ a.nappi:hover {
 
 #nostot h2, #uutuudet h2 {
 	margin-bottom: 20px;
-	color: #137fc7;
+	color: #0B2496;
 }
 
 #nostot .nosto {
@@ -334,7 +334,7 @@ a.nappi:hover {
 
 #nostot .nosto:after {
 	content: "";
-    border-bottom: 6px solid #242fa7;
+    border-bottom: 6px solid #0B2496;
 	width: 0%;
     bottom: 0;
     position: absolute;
@@ -343,7 +343,7 @@ a.nappi:hover {
 
 #nostot .nosto:hover:after {
 	content: "";
-    border-bottom: 6px solid #242fa7;
+    border-bottom: 6px solid #0B2496;
 	width: 100%;
     bottom: 0;
     position: absolute;
@@ -367,7 +367,7 @@ a.nappi:hover {
 	text-transform: uppercase;
 	font-weight: 700;
 	z-index: 3;
-	color: #242fa7;
+	color: #0B2496;
 }
 #nostot .nosto h3 {
 	background-color: #fff;
@@ -379,7 +379,7 @@ a.nappi:hover {
 	font-weight: 700;
 	z-index: 3;
 	font-size: 45px;
-	color: #242fa7;
+	color: #0B2496;
 	background-color: #fff;
 	padding: 15px 25px;
 }
@@ -429,7 +429,7 @@ a.nappi:hover {
 #cta {
 	height: 450px;
 	width: 100%;
-	background-color: #14c6b6;
+	background-color: #3EE6C7;
 	display: flex;
 	margin-bottom: 70px;
 	background-size: cover;
@@ -449,7 +449,7 @@ a.nappi:hover {
 
 .kampanjainfo h2 {
 	line-height: 50px;
-	color: #242fa7;
+	color: #0B2496;
 	background-color: #fff;
 	padding: 15px 25px;
 }
@@ -464,9 +464,13 @@ a.nappi:hover {
 
 /*FOOTER*/
 
+#footer #logo a span:nth-child(3) {
+	color: #fff;
+}
+
 #footer .row {
 	min-height: 300px;
-	background-color: #137fc7;
+	background-color: #1492CC;
 	display: flex;
 	align-items: flex-start;
 	padding: 100px 0px 60px 0px;
@@ -495,7 +499,7 @@ a.nappi:hover {
 }
 
 #footer a:hover {
-	color: #242fa7;
+	color: #0B2496;
 }
 
 #footer #logo {
@@ -503,12 +507,12 @@ a.nappi:hover {
 }
 
 #alafooter {
-	background-color: #242fa7;
+	background-color: #0B2496;
 	text-align:center;
 }
 
 #alafooter p {
-		color: #fff;
+		color: #3EE6C7;
 		padding: 15px 0px;
 		font-size: 14px;
 }
@@ -536,7 +540,9 @@ a.nappi:hover {
 }
 .inspiroidu  h2 {
 	font-family: "Playfair Display";
-	color: #14c6b6;
+	color: #3EE6C7;
+	background-color: #0B2496;
+	padding: 15px 25px;
 }
 
 
