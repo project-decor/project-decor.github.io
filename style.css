@@ -172,7 +172,7 @@ hr {
     right: 0;
     align-items: center;
     height: 130px;
-    background-color: #137fc74f;
+    background: linear-gradient(#083e6270,#fff0);
 }
 #navigaatio .naw-wrap {
 	display: flex;
