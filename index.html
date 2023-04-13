@@ -8,11 +8,12 @@
 <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" href="./icons/css/solid.css">
 <link rel="stylesheet" href="./icons/css/fontawesome.css">
-<script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="./js/popup.js"></script>
 </head>
 <body>
 <div class="block">
 <div id="header" class="container-fluid">
+	<div class="container">
 		<div id="ylaheader" class="row">
 			<div class="col-12 col-sm-6 vasen">
 				<i class="fa-solid fa-truck-fast"></i><span>Ilmainen toimitus yli 100€ tilauksille!</span>
@@ -21,9 +22,10 @@
 				<i class="fa-solid fa-arrows-rotate"></i><span>30 päivän palautus- ja vaihto-oikeus.</span>
 			</div>
 		</div>	
+	</div>
 </div>
 <div id="navigaatio" class="container-fluid">
-	<div class="container-fluid">
+	<div class="container">
 		<div class="row">
 			<div class="col-12 col-sm-5 naw-wrap">
 					<ul>
@@ -44,8 +46,12 @@
 				</div>
 			</div>
 			<div class="col-12 col-sm-5 kuvakkeet">
-				<i title="Näytä suosikit" class="fa-solid fa-heart"></i>
+			<button type="button" title="Tästä siirtyisit suosikkeihin" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="focus">
+				<i class="fa-solid fa-heart"></i>
+			</button>
+			<button type="button" title="Tästä siirtyisit ostoskoriin" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="focus">
 				<i title="Näytä ostoskori" class="fa-solid fa-cart-shopping"></i>
+			</button>
 			</div>
 		</div>
 	</div>
@@ -103,101 +109,152 @@
 </div>
 
 <div id="uutuudet" class="container-fluid">
+<div class="container">
 	<div class="sisalto">
 		<h2>Uutuudet</h2>
-		<p>Tutustu kevään uutuustuotteisiimme.</p>
+		<p>Tutustu tämän kevään uutuustuotteisiimme.</p>
 	</div>
 	<div class="row p-0 m-0">
 		<div class="col-6 col-md-3 nosto">
-			<img title="" alt="" class="nosto tuote" src="./images/pixabay-bijutoha-NA-chair2.png">
+			<button title="Tästä siirtyisit tuotekortille" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="focus">
+				<img title="Lounge-nojatuoli" alt="Lounge-nojatuoli" class="nosto tuote" src="./images/pixabay-bijutoha-NA-chair2.png">
+			</button>
 			<div class="info">
 				<h3>Lounge-nojatuoli</h3>
 				<p>75.00€ <span>(sis. alv 24%)</span></p>
 				<div class="kuvakkeet">
-					<i title="Lisää suosikkeihin" class="fa-solid fa-heart"></i>
-					<i title="Lisää ostoskoriin" class="fa-solid fa-cart-shopping"></i>
+					<button type="button" title="Tuote lisätty suosikkeihin!" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="focus">
+						<i title="Lisää suosikkeihin" class="fa-solid fa-heart"></i>
+					</button>
+					<button type="button" title="Tuote lisätty ostoskoriin!" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="focus">
+						<i title="Lisää ostoskoriin" class="fa-solid fa-cart-shopping"></i>
+					</button>
 				</div>
 			</div>
 		</div>
 		<div class="col-6 col-md-3 nosto">
-			<img title="" alt="" class="nosto tuote" src="./images/pixabay-bijutoha-NA-lamp.png">
+		<div class="suosikkitag">Suosikki!</div>
+			<button title="Tästä siirtyisit tuotekortille" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="focus">
+				<img title="" alt="" class="nosto tuote" src="./images/pixabay-bijutoha-NA-lamp.png">
+			</button>
 			<div class="info">
 				<h3>Pöytälamppu</h3>
 				<p>37.00€ <span>(sis. alv 24%)</span></p>
 				<div class="kuvakkeet">
-					<i title="Lisää suosikkeihin" class="fa-solid fa-heart"></i>
-					<i title="Lisää ostoskoriin" class="fa-solid fa-cart-shopping"></i>
+					<button type="button" title="Tuote lisätty suosikkeihin!" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="focus">
+						<i title="Lisää suosikkeihin" class="fa-solid fa-heart"></i>
+					</button>
+					<button type="button" title="Tuote lisätty ostoskoriin!" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="focus">
+						<i title="Lisää ostoskoriin" class="fa-solid fa-cart-shopping"></i>
+					</button>
 				</div>
 			</div>
 		</div>
 		<div class="col-6 col-md-3 nosto">
-			<img title="" alt="" class="nosto tuote" src="./images/pixabay-haykanush-NA-chair-1-7307419_1920.png">
+			<button title="Tästä siirtyisit tuotekortille" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="focus">
+				<img title="" alt="" class="nosto tuote" src="./images/pixabay-haykanush-NA-chair-1-7307419_1920.png">
+			</button>
 			<div class="info">
 				<h3>Nojatuoli</h3>
 				<p>48.00€ <span>(sis. alv 24%)</span></p>
 				<div class="kuvakkeet">
-					<i title="Lisää suosikkeihin" class="fa-solid fa-heart"></i>
-					<i title="Lisää ostoskoriin" class="fa-solid fa-cart-shopping"></i>
+					<button type="button" title="Tuote lisätty suosikkeihin!" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="focus">
+						<i title="Lisää suosikkeihin" class="fa-solid fa-heart"></i>
+					</button>
+					<button type="button" title="Tuote lisätty ostoskoriin!" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="focus">
+						<i title="Lisää ostoskoriin" class="fa-solid fa-cart-shopping"></i>
+					</button>
 				</div>
 			</div>
 		</div>
 		<div class="col-6 col-md-3 nosto">
-			<img title="" alt="" class="nosto tuote" src="./images/galina-n-miz-unsplash-NA.png">
+			<button title="Tästä siirtyisit tuotekortille" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="focus">
+				<img title="" alt="" class="nosto tuote" src="./images/galina-n-miz-unsplash-NA.png">
+			</button>
 			<div class="info">
 				<h3>Mehikasvi ruukussa</h3>
 				<p>13.00€ <span>(sis. alv 24%)</span></p>
 				<div class="kuvakkeet">
-					<i title="Lisää suosikkeihin" class="fa-solid fa-heart"></i>
-					<i title="Lisää ostoskoriin" class="fa-solid fa-cart-shopping"></i>
+					<button type="button" title="Tuote lisätty suosikkeihin!" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="focus">
+						<i title="Lisää suosikkeihin" class="fa-solid fa-heart"></i>
+					</button>
+					<button type="button" title="Tuote lisätty ostoskoriin!" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="focus">
+						<i title="Lisää ostoskoriin" class="fa-solid fa-cart-shopping"></i>
+					</button>
 				</div>
 			</div>
 		</div>
 	</div>
 	<div class="row p-0 m-0">
 		<div class="col-6 col-md-3 nosto">
-			<img title="" alt="" class="nosto tuote" src="./images/pixabay-bijutoha-NA-lamp2.png">
+			<button title="Tästä siirtyisit tuotekortille" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="focus">
+				<img title="" alt="" class="nosto tuote" src="./images/pixabay-bijutoha-NA-lamp2.png">
+			</button>
 			<div class="info">
 				<h3>Pöytälamppu</h3>
 				<p>45.00€ <span>(sis. alv 24%)</span></p>
 				<div class="kuvakkeet">
-					<i title="Lisää suosikkeihin" class="fa-solid fa-heart"></i>
-					<i title="Lisää ostoskoriin" class="fa-solid fa-cart-shopping"></i>
+					<button type="button" title="Tuote lisätty suosikkeihin!" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="focus">
+						<i title="Lisää suosikkeihin" class="fa-solid fa-heart"></i>
+					</button>
+					<button type="button" title="Tuote lisätty ostoskoriin!" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="focus">
+						<i title="Lisää ostoskoriin" class="fa-solid fa-cart-shopping"></i>
+					</button>
 				</div>
 			</div>
 		</div>
 		<div class="col-6 col-md-3 nosto">
-			<img title="" alt="" class="nosto tuote" src="./images/pixabay-bijutoha-NA-chair.png">
+			<button title="Tästä siirtyisit tuotekortille" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="focus">
+				<img title="" alt="" class="nosto tuote" src="./images/pixabay-bijutoha-NA-chair.png">
+			</button>
 			<div class="info">
 				<h3>Toimistotuoli</h3>
 				<p>65.00€ <span>(sis. alv 24%)</span></p>
 				<div class="kuvakkeet">
-					<i title="Lisää suosikkeihin" class="fa-solid fa-heart"></i>
-					<i title="Lisää ostoskoriin" class="fa-solid fa-cart-shopping"></i>
+					<button type="button" title="Tuote lisätty suosikkeihin!" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="focus">
+						<i title="Lisää suosikkeihin" class="fa-solid fa-heart"></i>
+					</button>
+					<button type="button" title="Tuote lisätty ostoskoriin!" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="focus">
+						<i title="Lisää ostoskoriin" class="fa-solid fa-cart-shopping"></i>
+					</button>
 				</div>
 			</div>
 		</div>
 		<div class="col-6 col-md-3 nosto">
-			<img title="" alt="" class="nosto tuote" src="./images/pixabay-dopecentipide-table-4900096_1280-NA.png">
+			<button title="Tästä siirtyisit tuotekortille" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="focus">
+				<img title="" alt="" class="nosto tuote" src="./images/pixabay-dopecentipide-table-4900096_1280-NA.png">
+			</button>
 			<div class="info">
 				<h3>AITO-ruokapöytä</h3>
 				<p>130.00€ <span>(sis. alv 24%)</span></p>
 				<div class="kuvakkeet">
-					<i title="Lisää suosikkeihin" class="fa-solid fa-heart"></i>
-					<i title="Lisää ostoskoriin" class="fa-solid fa-cart-shopping"></i>
+					<button type="button" title="Tuote lisätty suosikkeihin!" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="focus">
+						<i title="Lisää suosikkeihin" class="fa-solid fa-heart"></i>
+					</button>
+					<button type="button" title="Tuote lisätty ostoskoriin!" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="focus">
+						<i title="Lisää ostoskoriin" class="fa-solid fa-cart-shopping"></i>
+					</button>
 				</div>
 			</div>
 		</div>
 		<div class="col-6 col-md-3 nosto">
-			<img title="" alt="" class="nosto tuote" src="./images/ruslan-bardash-unsplash-NA.png">
+			<button title="Tästä siirtyisit tuotekortille" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="focus">
+				<img title="" alt="" class="nosto tuote" src="./images/ruslan-bardash-unsplash-NA.png">
+			</button>
 			<div class="info">
 				<h3>AITO-jakkara</h3>
 				<p>18.00€ <span>(sis. alv 24%)</span></p>
 				<div class="kuvakkeet">
-					<i title="Lisää suosikkeihin" class="fa-solid fa-heart"></i>
-					<i title="Lisää ostoskoriin" class="fa-solid fa-cart-shopping"></i>
+					<button type="button" title="Tuote lisätty suosikkeihin!" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="focus">
+						<i title="Lisää suosikkeihin" class="fa-solid fa-heart"></i>
+					</button>
+					<button type="button" title="Tuote lisätty ostoskoriin!" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="focus">
+						<i title="Lisää ostoskoriin" class="fa-solid fa-cart-shopping"></i>
+					</button>
 				</div>
 			</div>
 		</div>
+	</div>
 	</div>
 </div>
 
@@ -211,6 +268,85 @@
 		<div class="col-12 col-sm-6 kampanjainfo p-5 ">
 			<h2><span>Kevään tarjoukset</span> säästä 25% valituista kevään suosikkikoristeista!</h2>
 		</div>
+	</div>
+</div>
+
+<div id="suosikit" class="container-fluid">
+<div class="container">
+	<div class="sisalto">
+		<h2>Kevään suosikkeja</h2>
+	</div>
+	<div class="row p-0 m-0">
+		<div class="col-6 col-md-3 nosto">
+		<div class="suosikkitag">Suosikki!</div>
+			<button title="Tästä siirtyisit tuotekortille" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="focus">
+				<img title="" alt="" class="nosto tuote" src="./images/pixabay-bijutoha-NA-lamp.png">
+			</button>
+			<div class="info">
+				<h3>Pöytälamppu</h3>
+				<p>37.00€ <span>(sis. alv 24%)</span></p>
+				<div class="kuvakkeet">
+					<button type="button" title="Tuote lisätty suosikkeihin!" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="focus">
+						<i title="Lisää suosikkeihin" class="fa-solid fa-heart"></i>
+					</button>
+					<button type="button" title="Tuote lisätty ostoskoriin!" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="focus">
+						<i title="Lisää ostoskoriin" class="fa-solid fa-cart-shopping"></i>
+					</button>
+				</div>
+			</div>
+		</div>
+		<div class="col-6 col-md-3 nosto">
+			<button title="Tästä siirtyisit tuotekortille" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="focus">
+				<img title="" alt="" class="nosto tuote" src="./images/galina-n-miz-unsplash-NA.png">
+			</button>
+			<div class="info">
+				<h3>Mehikasvi ruukussa</h3>
+				<p>13.00€ <span>(sis. alv 24%)</span></p>
+				<div class="kuvakkeet">
+					<button type="button" title="Tuote lisätty suosikkeihin!" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="focus">
+						<i title="Lisää suosikkeihin" class="fa-solid fa-heart"></i>
+					</button>
+					<button type="button" title="Tuote lisätty ostoskoriin!" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="focus">
+						<i title="Lisää ostoskoriin" class="fa-solid fa-cart-shopping"></i>
+					</button>
+				</div>
+			</div>
+		</div>
+		<div class="col-6 col-md-3 nosto">
+			<button title="Tästä siirtyisit tuotekortille" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="focus">
+				<img title="" alt="" class="nosto tuote" src="./images/pixabay-dopecentipide-table-4900096_1280-NA.png">
+			</button>
+			<div class="info">
+				<h3>AITO-ruokapöytä</h3>
+				<p>130.00€ <span>(sis. alv 24%)</span></p>
+				<div class="kuvakkeet">
+					<button type="button" title="Tuote lisätty suosikkeihin!" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="focus">
+						<i title="Lisää suosikkeihin" class="fa-solid fa-heart"></i>
+					</button>
+					<button type="button" title="Tuote lisätty ostoskoriin!" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="focus">
+						<i title="Lisää ostoskoriin" class="fa-solid fa-cart-shopping"></i>
+					</button>
+				</div>
+			</div>
+		</div>
+		<div class="col-6 col-md-3 nosto">
+			<button title="Tästä siirtyisit tuotekortille" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="focus">
+				<img title="" alt="" class="nosto tuote" src="./images/ruslan-bardash-unsplash-NA.png">
+			</button>
+			<div class="info">
+				<h3>AITO-jakkara</h3>
+				<p>18.00€ <span>(sis. alv 24%)</span></p>
+				<div class="kuvakkeet">
+					<button type="button" title="Tuote lisätty suosikkeihin!" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="focus">
+						<i title="Lisää suosikkeihin" class="fa-solid fa-heart"></i>
+					</button>
+					<button type="button" title="Tuote lisätty ostoskoriin!" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="focus">
+						<i title="Lisää ostoskoriin" class="fa-solid fa-cart-shopping"></i>
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
 	</div>
 </div>
 
@@ -260,6 +396,7 @@
 </div>
 
 <div id="footer" class="container-fluid">
+	<div class="container">
 		<div class="row">
 				<div class="col-12 col-sm-4">
 					<div id="logo">
@@ -285,11 +422,20 @@
 					<p>Usein kysytyt kysymykset</p>
 				</div>
 			</div>
+	</div>
 </div>
 <div id="alafooter" class="container-fluid">
 	<p>Copyright © 2023 Furniture Shop</p>
 </div>
 </div>
 
+
+<script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript">
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+</script>
 </body>
 </html>

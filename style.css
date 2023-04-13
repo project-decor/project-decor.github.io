@@ -281,7 +281,7 @@ a.nappi:hover {
 
 /*NOSTOT*/
 
-#nostot, #uutuudet {
+#nostot, #uutuudet, #suosikit {
 	text-align: center;
 	padding: 0px 0px 90px 0px;
 	display: flex;
@@ -300,6 +300,7 @@ a.nappi:hover {
 .nosto .kuvakkeet i {
 	margin-right:15px;
 	color: #0B2496;
+	font-size: 18px;
 }
 .info {
 	width: 250px;
@@ -320,7 +321,7 @@ a.nappi:hover {
 	margin: 70px 0px;
 }
 
-#nostot h2, #uutuudet h2 {
+#nostot h2, #uutuudet h2, #suosikit h2 {
 	margin-bottom: 20px;
 	color: #0B2496;
 }
@@ -401,7 +402,7 @@ a.nappi:hover {
 	background-size: cover;
 }
 
-#uutuudet {
+#uutuudet, #suosikit {
 	background-color: #eee;
 }
 
@@ -409,18 +410,21 @@ a.nappi:hover {
 	margin-bottom: 50px;
 }
 
-#uutuudet h3 {
+#uutuudet h3, #suosikit h3 {
 	text-align: left;
 	text-transform: uppercase;
 	font-weight: 700;
 	z-index: 3;
 	color: #000;
+	font-size: 18px;
+	margin-bottom: 15px;
 }
 
-#uutuudet .nosto {
+#uutuudet .nosto, #suosikit .nosto {
 	margin-bottom: 10px;
+	position: relative;
 }
-#uutuudet .nosto .info {
+#uutuudet .nosto .info, #suosikit .nosto .info {
 	margin-bottom: 50px;
 }
 
@@ -468,7 +472,7 @@ a.nappi:hover {
 	color: #fff;
 }
 
-#footer .row {
+#footer {
 	min-height: 300px;
 	background-color: #1492CC;
 	display: flex;
@@ -559,4 +563,23 @@ a.nappi:hover {
 
 .container-fluid {
 	max-width: 1920px!important;
+}
+
+button {
+	background: transparent;
+	border:none;
+}
+#navigaatio button:focus i.fa-heart, #navigaatio button:focus i.fa-cart-shopping, .nosto .kuvakkeet button:focus i.fa-heart, .nosto .kuvakkeet button:focus i.fa-cart-shopping {
+	color: #3EE6C7;
+}
+
+.suosikkitag {
+	background-color:#3EE6C7;
+	color: #0B2496;
+	padding: 3px 10px;
+	font-weight: 700;
+	position: absolute;
+    top: 10px;
+    z-index: 9;
+    left: 20px;
 }
