@@ -126,7 +126,7 @@ body a {
 }
 
 hr {
-	border-top: 2px dashed #b2dfd3!important;
+	border-top: 2px dashed #ff9393!important;
 	opacity: 1!important;
 	margin: 40px 0px!important;
 	margin: 40px auto!important;
@@ -135,7 +135,7 @@ hr {
 
 /*HEADER*/
 #header {
-	background-color: #0f3156;
+	background-color: #1c224e;
 	color: #fff;
 	font-weight: 500;
 	font-size: 14px;
@@ -165,7 +165,7 @@ hr {
 
 /*NAVIGAATIO*/
 #navigaatio {
-	background-color: #3e699b;
+	background-color: #326a40;
     width: 100%;
     /* top: 60px; */
     left: 0;
@@ -186,7 +186,7 @@ hr {
 	transition: 0.5s;
 }
 #navigaatio i:hover {
-	color: #b2dfd3;
+	color: #ff9393;
 }
 #navigaatio ul{
 	display: flex;
@@ -206,7 +206,7 @@ hr {
 	transition: 0.5s;
 }
 #navigaatio ul li a:hover {
-	color: #b2dfd3;
+	color: #ff9393;
 }
 
 /*LOGO*/
@@ -226,7 +226,7 @@ hr {
 }
 #logo a span:nth-child(3) {
 	margin-left: 35px;
-	color: #b2dfd3;
+	color: #ff9393;
 }
 
 /*KUVAKKEET*/
@@ -258,7 +258,7 @@ hr {
 }
 
 #banneri_wrap {
-	background-color: #559a9c;
+	background-color: #b55757;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -274,7 +274,7 @@ a.nappi {
 	min-width: 160px;
 	background-color: #fff;
 	text-align: center;
-	color: #0f3156;
+	color: #1c224e;
 	padding: 15px 15px;
 	font-size: 18px;
 	margin: 25px 0px;
@@ -285,7 +285,7 @@ a.nappi {
 }
 a.nappi:hover {
 	opacity: 0.7;
-	color: #0f3156;
+	color: #1c224e;
 }
 
 a.alt {
@@ -309,7 +309,7 @@ button:hover a.nappi {
 	justify-content: center;
 	flex-direction: column;
 	margin: auto!important;
-	background-color: #4f86c9;
+	background-color: #326a40;
 }
 #nostot button {
 	width:100%;
@@ -331,7 +331,7 @@ button:hover a.nappi {
 	transition: 0.5s;
 }
 .nosto .kuvakkeet i:hover {
-	color: #b2dfd3;
+	color: #ff9393;
 }
 
 .info {
@@ -343,7 +343,7 @@ button:hover a.nappi {
 	color: #1492CC;
 }
 .info p {
-	color: #3e699b;
+	color: #326a40;
 	font-size: 18px;
 }
 .info span {
@@ -369,7 +369,7 @@ button:hover a.nappi {
 
 #nostot .nosto:after {
 	content: "";
-    border-bottom: 6px solid #0f3156;
+    border-bottom: 6px solid #1c224e;
 	width: 0%;
     bottom: 0;
     position: absolute;
@@ -378,7 +378,7 @@ button:hover a.nappi {
 
 #nostot .nosto:hover:after {
 	content: "";
-    border-bottom: 6px solid #0f3156;
+    border-bottom: 6px solid #1c224e;
 	width: 100%;
     bottom: 0;
     position: absolute;
@@ -402,7 +402,7 @@ button:hover a.nappi {
 	text-transform: uppercase;
 	font-weight: 700;
 	z-index: 3;
-	color: #3e699b;
+	color: #326a40;
 }
 #nostot .nosto h3 {
 	background-color: #fff;
@@ -414,7 +414,7 @@ button:hover a.nappi {
 	font-weight: 700;
 	z-index: 3;
 	font-size: 45px;
-	color: #3e699b;
+	color: #326a40;
 	background-color: #fff;
 	padding: 15px 25px;
 }
@@ -466,7 +466,7 @@ button:hover a.nappi {
 /*CTA*/
 
 #cta {
-    background-color: #b2dfd3;
+    background-color: #ff9393;
     align-items: center;
     justify-content: flex-end;
     margin-bottom: 70px;
@@ -512,12 +512,12 @@ button:hover a.nappi {
 /*FOOTER*/
 
 #footer #logo a span:nth-child(3) {
-	color: #b2dfd3;
+	color: #ff9393;
 }
 
 #footer {
 	min-height: 300px;
-	background-color: #3e699b;
+	background-color: #326a40;
 	display: flex;
 	align-items: flex-start;
 	padding: 100px 0px 60px 0px;
@@ -554,12 +554,12 @@ button:hover a.nappi {
 }
 
 #alafooter {
-	background-color: #0f3156;
+	background-color: #1c224e;
 	text-align:center;
 }
 
 #alafooter p {
-		color: #b2dfd3;
+		color: #ff9393;
 		padding: 15px 0px;
 		font-size: 14px;
 }
@@ -584,7 +584,7 @@ button:hover a.nappi {
 	display: flex;
     justify-content: center;
     align-items: center;
-	background-color: #559a9c;
+	background-color: #b55757;
 }
 .inspiroidu h2 {
 	font-family: "Playfair Display";
@@ -613,12 +613,12 @@ button {
 	border:none;
 }
 #navigaatio button:focus i.fa-heart, #navigaatio button:focus i.fa-cart-shopping, .nosto .kuvakkeet button:focus i.fa-heart, .nosto .kuvakkeet button:focus i.fa-cart-shopping {
-	color: #b2dfd3;
+	color: #ff9393;
 }
 
 .suosikkitag {
-	background-color: #b2dfd3;
-    color: #0f3156;
+	background-color: #ff9393;
+    color: #1c224e;
     padding: 4px 12px;
     font-weight: 700;
     position: absolute;
@@ -638,8 +638,8 @@ button {
   z-index: 99;
   border: none;
   outline: none; 
-  background-color: #0f3156;
-  color: #b2dfd3; 
+  background-color: #1c224e;
+  color: #ff9393; 
   cursor: pointer;
   padding: 5px 20px;
   font-size: 25px;
