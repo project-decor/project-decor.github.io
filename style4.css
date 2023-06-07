@@ -104,7 +104,7 @@ body h1, body h2, body h3, body h4, a, p, span {
 
 body h1 {
 	font-size: 50px;
-	color: #1a1e5a;
+	color: #0f3156;
 	line-height: 1.3;
 }
 body h2 {
@@ -116,7 +116,7 @@ body h2 {
 }
 
 body p {
-	color: #fff;
+	color: #0f3156;
 	font-size: 24px;
 	line-height: 1.3;
 }
@@ -126,7 +126,7 @@ body a {
 }
 
 hr {
-	border-top: 2px dashed #ffb2b2!important;
+	border-top: 2px dashed #1f8587!important;
 	opacity: 1!important;
 	margin: 40px 0px!important;
 	margin: 40px auto!important;
@@ -135,7 +135,7 @@ hr {
 
 /*HEADER*/
 #header {
-	background-color: #242B63;
+	background-color: #000;
 	color: #fff;
 	font-weight: 500;
 	font-size: 14px;
@@ -165,7 +165,7 @@ hr {
 
 /*NAVIGAATIO*/
 #navigaatio {
-	background-color: #35742F;
+	background-color: #fff;
     width: 100%;
     /* top: 60px; */
     left: 0;
@@ -181,12 +181,12 @@ hr {
 }
 #navigaatio i {
 	font-size: 25px;
-	color: #fff;
+	color: #000;
 	margin: 0px 10px;
 	transition: 0.5s;
 }
 #navigaatio i:hover {
-	color: #ffb2b2;
+	color: #1f8587;
 }
 #navigaatio ul{
 	display: flex;
@@ -200,13 +200,13 @@ hr {
 	font-size: 18px;
 	line-height: 20px;
 	font-weight: 600;
-	color: #fff;
+	color: #000;
 	text-transform: uppercase;
 	text-decoration: none;
 	transition: 0.5s;
 }
 #navigaatio ul li a:hover {
-	color: #ffb2b2;
+	color: #1f8587;
 }
 
 /*LOGO*/
@@ -220,13 +220,13 @@ hr {
 #logo a span {
 	font-size: 35px;
 	line-height: 20px;
-	color: #fff;
+	color: #000;
 	text-decoration: none;
 	font-family: "Playfair Display";
 }
 #logo a span:nth-child(3) {
 	margin-left: 35px;
-	color: #ffb2b2;
+	color: #1f8587;
 }
 
 /*KUVAKKEET*/
@@ -258,7 +258,7 @@ hr {
 }
 
 #banneri_wrap {
-	background-color: #D96E79;
+	background-color: #325987;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -272,9 +272,9 @@ hr {
 a.nappi {
 	display: block;
 	min-width: 160px;
-	background-color: #fff;
+	background-color: #325987;
 	text-align: center;
-	color: #242B63;
+	color: #fff;
 	padding: 15px 15px;
 	font-size: 18px;
 	margin: 25px 0px;
@@ -283,22 +283,28 @@ a.nappi {
 	transform: 0.5s;
 	text-transform: uppercase;
 }
+#banneri_wrap a.nappi {
+	background-color: #fff;
+	color: #0f3156;
+}
 a.nappi:hover {
 	opacity: 0.7;
 	color: #242B63;
 }
 
 a.alt {
-    color: #1a1e5a;
-    border: 3px solid #1a1e5a;
-}
-button:hover a.alt {
-    color: #fff;
-    border: 3px solid #1a1e5a;
-	background-color: #1a1e5a;
+    color: #0f3156;
+    border: 3px solid #0f3156;
+	background-color: #fff;
 }
 button:hover a.nappi {
 	opacity: 0.7;
+}
+button:hover a.alt {
+    color: #fff;
+    border: 3px solid #0f3156;
+	background-color: #0f3156;
+	opacity: 1;
 }
 /*NOSTOT*/
 
@@ -309,7 +315,7 @@ button:hover a.nappi {
 	justify-content: center;
 	flex-direction: column;
 	margin: auto!important;
-	background-color: #45943E;
+	background-color: #f3f3f3;
 }
 #nostot button {
 	width:100%;
@@ -326,12 +332,12 @@ button:hover a.nappi {
 }
 .nosto .kuvakkeet i {
 	margin-right:15px;
-	color: #1a1e5a;
+	color: #0f3156;
 	font-size: 18px;
 	transition: 0.5s;
 }
 .nosto .kuvakkeet i:hover {
-	color: #ffb2b2;
+	color: #1f8587;
 }
 
 .info {
@@ -343,7 +349,7 @@ button:hover a.nappi {
 	color: #1492CC;
 }
 .info p {
-	color: #35742F;
+	color: #325987;
 	font-size: 18px;
 }
 .info span {
@@ -357,7 +363,7 @@ button:hover a.nappi {
 
 #nostot h2, #uutuudet h2, #suosikit h2 {
 	margin-bottom: 20px;
-	color: #fff;
+	color: #0f3156;
 }
 
 #nostot .nosto {
@@ -369,7 +375,7 @@ button:hover a.nappi {
 
 #nostot .nosto:after {
 	content: "";
-    border-bottom: 6px solid #242B63;
+    border-bottom: 6px solid #0f3156;
 	width: 0%;
     bottom: 0;
     position: absolute;
@@ -378,7 +384,7 @@ button:hover a.nappi {
 
 #nostot .nosto:hover:after {
 	content: "";
-    border-bottom: 6px solid #242B63;
+    border-bottom: 6px solid #0f3156;
 	width: 100%;
     bottom: 0;
     position: absolute;
@@ -402,7 +408,7 @@ button:hover a.nappi {
 	text-transform: uppercase;
 	font-weight: 700;
 	z-index: 3;
-	color: #35742F;
+	color: #325987;
 }
 #nostot .nosto h3 {
 	background-color: #fff;
@@ -414,7 +420,7 @@ button:hover a.nappi {
 	font-weight: 700;
 	z-index: 3;
 	font-size: 45px;
-	color: #35742F;
+	color: #325987;
 	background-color: #fff;
 	padding: 15px 25px;
 }
@@ -466,7 +472,7 @@ button:hover a.nappi {
 /*CTA*/
 
 #cta {
-    background-color: #ffb2b2;
+    background-color: #b2dfd3;
     align-items: center;
     justify-content: flex-end;
     margin-bottom: 70px;
@@ -493,7 +499,7 @@ button:hover a.nappi {
 
 .kampanjainfo h2 {
 	line-height: 1.5;
-    color: #1a1e5a;
+    color: #0f3156;
     font-size: 30px;
     width: 100%;
     background-color: #fff;
@@ -511,13 +517,17 @@ button:hover a.nappi {
 
 /*FOOTER*/
 
+#footer #logo a span {
+	color: #000;
+}
+
 #footer #logo a span:nth-child(3) {
-	color: #ffb2b2;
+	color: #1f8587;
 }
 
 #footer {
 	min-height: 300px;
-	background-color: #35742F;
+	background-color: #fff;
 	display: flex;
 	align-items: flex-start;
 	padding: 100px 0px 60px 0px;
@@ -528,7 +538,7 @@ button:hover a.nappi {
 }
 
 #footer p, #footer li a {
-	color: #fff;
+	color: #000;
 	font-size: 16px;
 	line-height: 27px;
 	text-decoration: none;
@@ -546,7 +556,7 @@ button:hover a.nappi {
 }
 
 #footer a:hover {
-	color: #ffb2b2;
+	color: #1f8587;
 }
 
 #footer #logo {
@@ -554,12 +564,12 @@ button:hover a.nappi {
 }
 
 #alafooter {
-	background-color: #242B63;
+	background-color: #000;
 	text-align:center;
 }
 
 #alafooter p {
-		color: #ffb2b2;
+		color: #fff;
 		padding: 15px 0px;
 		font-size: 14px;
 }
@@ -584,11 +594,11 @@ button:hover a.nappi {
 	display: flex;
     justify-content: center;
     align-items: center;
-	background-color: #D96E79;
+	background-color: #fff;
 }
 .inspiroidu h2 {
 	font-family: "Playfair Display";
-	color: #fff;
+	color: #0f3156;
 	padding: 15px 25px;
 }
 
@@ -613,11 +623,11 @@ button {
 	border:none;
 }
 #navigaatio button:focus i.fa-heart, #navigaatio button:focus i.fa-cart-shopping, .nosto .kuvakkeet button:focus i.fa-heart, .nosto .kuvakkeet button:focus i.fa-cart-shopping {
-	color: #ffb2b2;
+	color: #1f8587;
 }
 
 .suosikkitag {
-	background-color: #ffb2b2;
+	background-color: #b2dfd3;
     color: #242B63;
     padding: 4px 12px;
     font-weight: 700;
@@ -638,8 +648,8 @@ button {
   z-index: 99;
   border: none;
   outline: none; 
-  background-color: #242B63;
-  color: #ffb2b2; 
+  background-color: #1f8587;
+  color: #fff; 
   cursor: pointer;
   padding: 5px 20px;
   font-size: 25px;

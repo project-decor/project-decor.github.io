@@ -116,7 +116,7 @@ body h2 {
 }
 
 body p {
-	color: #fff;
+	color: #1a1e5a;
 	font-size: 24px;
 	line-height: 1.3;
 }
@@ -126,7 +126,7 @@ body a {
 }
 
 hr {
-	border-top: 2px dashed #ffb2b2!important;
+	border-top: 2px dashed #de3838!important;
 	opacity: 1!important;
 	margin: 40px 0px!important;
 	margin: 40px auto!important;
@@ -135,7 +135,7 @@ hr {
 
 /*HEADER*/
 #header {
-	background-color: #242B63;
+	background-color: #000;
 	color: #fff;
 	font-weight: 500;
 	font-size: 14px;
@@ -165,7 +165,7 @@ hr {
 
 /*NAVIGAATIO*/
 #navigaatio {
-	background-color: #35742F;
+	background-color: #fff;
     width: 100%;
     /* top: 60px; */
     left: 0;
@@ -181,12 +181,12 @@ hr {
 }
 #navigaatio i {
 	font-size: 25px;
-	color: #fff;
+	color: #000;
 	margin: 0px 10px;
 	transition: 0.5s;
 }
 #navigaatio i:hover {
-	color: #ffb2b2;
+	color: #de3838;
 }
 #navigaatio ul{
 	display: flex;
@@ -200,13 +200,13 @@ hr {
 	font-size: 18px;
 	line-height: 20px;
 	font-weight: 600;
-	color: #fff;
+	color: #000;
 	text-transform: uppercase;
 	text-decoration: none;
 	transition: 0.5s;
 }
 #navigaatio ul li a:hover {
-	color: #ffb2b2;
+	color: #de3838;
 }
 
 /*LOGO*/
@@ -220,13 +220,13 @@ hr {
 #logo a span {
 	font-size: 35px;
 	line-height: 20px;
-	color: #fff;
+	color: #000;
 	text-decoration: none;
 	font-family: "Playfair Display";
 }
 #logo a span:nth-child(3) {
 	margin-left: 35px;
-	color: #ffb2b2;
+	color: #de3838;
 }
 
 /*KUVAKKEET*/
@@ -258,7 +258,7 @@ hr {
 }
 
 #banneri_wrap {
-	background-color: #D96E79;
+	background-color: #35742F;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -272,9 +272,9 @@ hr {
 a.nappi {
 	display: block;
 	min-width: 160px;
-	background-color: #fff;
+	background-color: #35742F;
 	text-align: center;
-	color: #242B63;
+	color: #fff;
 	padding: 15px 15px;
 	font-size: 18px;
 	margin: 25px 0px;
@@ -282,6 +282,10 @@ a.nappi {
 	font-weight: 500;
 	transform: 0.5s;
 	text-transform: uppercase;
+}
+#banneri_wrap a.nappi {
+	background-color: #fff;
+	color: #1a1e5a;
 }
 a.nappi:hover {
 	opacity: 0.7;
@@ -291,14 +295,16 @@ a.nappi:hover {
 a.alt {
     color: #1a1e5a;
     border: 3px solid #1a1e5a;
+	background-color: #fff;
+}
+button:hover a.nappi {
+	opacity: 0.7;
 }
 button:hover a.alt {
     color: #fff;
     border: 3px solid #1a1e5a;
 	background-color: #1a1e5a;
-}
-button:hover a.nappi {
-	opacity: 0.7;
+	opacity: 1;
 }
 /*NOSTOT*/
 
@@ -309,7 +315,7 @@ button:hover a.nappi {
 	justify-content: center;
 	flex-direction: column;
 	margin: auto!important;
-	background-color: #45943E;
+	background-color: #f3f3f3;
 }
 #nostot button {
 	width:100%;
@@ -331,7 +337,7 @@ button:hover a.nappi {
 	transition: 0.5s;
 }
 .nosto .kuvakkeet i:hover {
-	color: #ffb2b2;
+	color: #de3838;
 }
 
 .info {
@@ -357,7 +363,7 @@ button:hover a.nappi {
 
 #nostot h2, #uutuudet h2, #suosikit h2 {
 	margin-bottom: 20px;
-	color: #fff;
+	color: #1a1e5a;
 }
 
 #nostot .nosto {
@@ -511,13 +517,17 @@ button:hover a.nappi {
 
 /*FOOTER*/
 
+#footer #logo a span {
+	color: #000;
+}
+
 #footer #logo a span:nth-child(3) {
-	color: #ffb2b2;
+	color: #de3838;
 }
 
 #footer {
 	min-height: 300px;
-	background-color: #35742F;
+	background-color: #fff;
 	display: flex;
 	align-items: flex-start;
 	padding: 100px 0px 60px 0px;
@@ -528,7 +538,7 @@ button:hover a.nappi {
 }
 
 #footer p, #footer li a {
-	color: #fff;
+	color: #000;
 	font-size: 16px;
 	line-height: 27px;
 	text-decoration: none;
@@ -546,7 +556,7 @@ button:hover a.nappi {
 }
 
 #footer a:hover {
-	color: #ffb2b2;
+	color: #de3838;
 }
 
 #footer #logo {
@@ -554,12 +564,12 @@ button:hover a.nappi {
 }
 
 #alafooter {
-	background-color: #242B63;
+	background-color: #000;
 	text-align:center;
 }
 
 #alafooter p {
-		color: #ffb2b2;
+		color: #fff;
 		padding: 15px 0px;
 		font-size: 14px;
 }
@@ -584,11 +594,11 @@ button:hover a.nappi {
 	display: flex;
     justify-content: center;
     align-items: center;
-	background-color: #D96E79;
+	background-color: #fff;
 }
 .inspiroidu h2 {
 	font-family: "Playfair Display";
-	color: #fff;
+	color: #1a1e5a;
 	padding: 15px 25px;
 }
 
@@ -613,7 +623,7 @@ button {
 	border:none;
 }
 #navigaatio button:focus i.fa-heart, #navigaatio button:focus i.fa-cart-shopping, .nosto .kuvakkeet button:focus i.fa-heart, .nosto .kuvakkeet button:focus i.fa-cart-shopping {
-	color: #ffb2b2;
+	color: #de3838;
 }
 
 .suosikkitag {
@@ -638,8 +648,8 @@ button {
   z-index: 99;
   border: none;
   outline: none; 
-  background-color: #242B63;
-  color: #ffb2b2; 
+  background-color: #de3838;
+  color: #fff; 
   cursor: pointer;
   padding: 5px 20px;
   font-size: 25px;
