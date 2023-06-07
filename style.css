@@ -165,7 +165,7 @@ hr {
 
 /*NAVIGAATIO*/
 #navigaatio {
-	background-color: #3e699b;
+	background-color: #325987;
     width: 100%;
     /* top: 60px; */
     left: 0;
@@ -343,7 +343,7 @@ button:hover a.nappi {
 	color: #1492CC;
 }
 .info p {
-	color: #3e699b;
+	color: #325987;
 	font-size: 18px;
 }
 .info span {
@@ -402,7 +402,7 @@ button:hover a.nappi {
 	text-transform: uppercase;
 	font-weight: 700;
 	z-index: 3;
-	color: #3e699b;
+	color: #325987;
 }
 #nostot .nosto h3 {
 	background-color: #fff;
@@ -414,7 +414,7 @@ button:hover a.nappi {
 	font-weight: 700;
 	z-index: 3;
 	font-size: 45px;
-	color: #3e699b;
+	color: #325987;
 	background-color: #fff;
 	padding: 15px 25px;
 }
@@ -517,7 +517,7 @@ button:hover a.nappi {
 
 #footer {
 	min-height: 300px;
-	background-color: #3e699b;
+	background-color: #325987;
 	display: flex;
 	align-items: flex-start;
 	padding: 100px 0px 60px 0px;
@@ -546,7 +546,7 @@ button:hover a.nappi {
 }
 
 #footer a:hover {
-	color: #1a1e5a;
+	color: #b2dfd3;
 }
 
 #footer #logo {
