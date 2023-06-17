@@ -328,7 +328,7 @@ button:hover a.alt {
 .nosto .kuvakkeet i {
 	margin-right:15px;
 	color: #253359;
-	font-size: 18px;
+	font-size: 20px;
 	transition: 0.5s;
 }
 .nosto .kuvakkeet i:hover {
@@ -587,8 +587,11 @@ button {
 	background: transparent;
 	border:none;
 }
-#navigaatio button:focus i.fa-heart, #navigaatio button:focus i.fa-cart-shopping, .nosto .kuvakkeet button:focus i.fa-heart, .nosto .kuvakkeet button:focus i.fa-cart-shopping {
+#navigaatio button:focus i.fa-heart, #navigaatio button:focus i.fa-cart-shopping {
 	color: #b2dfd3;
+}
+.nosto .kuvakkeet button:focus i.fa-heart, .nosto .kuvakkeet button:focus i.fa-cart-shopping {
+	color: #549C88;
 }
 
 .suosikkitag {
@@ -630,7 +633,7 @@ button {
 	display: none;
 }
 
-/*@media only screen and (max-width: 1199px) {
+@media only screen and (max-width: 1199px) {
   .block {
     height: 100%;
 	width: 100%;
@@ -649,4 +652,4 @@ button {
 	  color: #000;
 	  
   }
-}*/
+}

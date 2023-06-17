@@ -327,7 +327,7 @@ button:hover a.nappi {
 .nosto .kuvakkeet i {
 	margin-right:15px;
 	color: #242963;
-	font-size: 18px;
+	font-size: 20px;
 	transition: 0.5s;
 }
 .nosto .kuvakkeet i:hover {
@@ -586,8 +586,11 @@ button {
 	background: transparent;
 	border:none;
 }
-#navigaatio button:focus i.fa-heart, #navigaatio button:focus i.fa-cart-shopping, .nosto .kuvakkeet button:focus i.fa-heart, .nosto .kuvakkeet button:focus i.fa-cart-shopping {
+#navigaatio button:focus i.fa-heart, #navigaatio button:focus i.fa-cart-shopping {
 	color: #FFBDC2;
+}
+.nosto .kuvakkeet button:focus i.fa-heart, .nosto .kuvakkeet button:focus i.fa-cart-shopping {
+	color: #D96F77;
 }
 
 .suosikkitag {

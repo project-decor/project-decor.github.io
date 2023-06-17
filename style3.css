@@ -333,11 +333,11 @@ button:hover a.alt {
 .nosto .kuvakkeet i {
 	margin-right:15px;
 	color: #242963;
-	font-size: 18px;
+	font-size: 20px;
 	transition: 0.5s;
 }
 .nosto .kuvakkeet i:hover {
-	color: #D96F77;
+	color: #de3838;
 }
 
 .info {
@@ -635,7 +635,7 @@ button {
   opacity: 0.7;
 }
 
-/*@media only screen and (max-width: 1199px) {
+@media only screen and (max-width: 1199px) {
   .block {
     height: 100%;
 	width: 100%;
@@ -654,4 +654,4 @@ button {
 	  color: #000;
 	  
   }
-}*/
+}
