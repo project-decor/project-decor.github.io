@@ -126,7 +126,7 @@ body a {
 }
 
 hr {
-	border-top: 2px dashed #de3838!important;
+	border-top: 2px dashed #cd2c2c!important;
 	opacity: 1!important;
 	margin: 40px 0px!important;
 	margin: 40px auto!important;
@@ -186,7 +186,7 @@ hr {
 	transition: 0.5s;
 }
 #navigaatio i:hover {
-	color: #de3838;
+	color: #cd2c2c;
 }
 #navigaatio ul{
 	display: flex;
@@ -206,7 +206,7 @@ hr {
 	transition: 0.5s;
 }
 #navigaatio ul li a:hover {
-	color: #de3838;
+	color: #cd2c2c;
 }
 
 /*LOGO*/
@@ -226,7 +226,7 @@ hr {
 }
 #logo a span:nth-child(3) {
 	margin-left: 35px;
-	color: #de3838;
+	color: #cd2c2c
 }
 
 /*KUVAKKEET*/
@@ -258,7 +258,7 @@ hr {
 }
 
 #banneri_wrap {
-	background-color: #276322;
+	background-color: #22641c;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -272,12 +272,11 @@ hr {
 a.nappi {
 	display: block;
 	min-width: 160px;
-	background-color: #276322;
+	background-color: #22641c;
 	text-align: center;
 	color: #fff;
 	padding: 15px 15px;
 	font-size: 18px;
-	margin: 25px 0px;
 	text-decoration: none;
 	font-weight: 500;
 	transform: 0.5s;
@@ -285,11 +284,33 @@ a.nappi {
 }
 #banneri_wrap a.nappi {
 	background-color: #fff;
-	color: #242963;
+	color: #000;
+	margin-top: 25px;
 }
 a.nappi:hover {
 	opacity: 0.8;
 	color: #242963;
+}
+#nostot .kat {
+	width: 100%;
+	padding: 15px;
+	text-align: center;
+	display: block;
+	background-color: #f3f3f3;
+	padding: 35px 0px;
+}
+#nostot .kat button {
+	width: auto;
+	margin-right: 10px;
+	margin-lefT: 10px;
+}
+#nostot .kat button a {
+	font-size: 14px;
+	padding: 10px;
+	border: 3px solid #22641c;
+	color: #22641c;
+	font-weight: 700;
+	background-color: transparent;
 }
 
 a.alt {
@@ -332,12 +353,12 @@ button:hover a.alt {
 }
 .nosto .kuvakkeet i {
 	margin-right:15px;
-	color: #242963;
+	color: #000;
 	font-size: 20px;
 	transition: 0.5s;
 }
 .nosto .kuvakkeet i:hover {
-	color: #de3838;
+	color: #cd2c2c;
 }
 
 .info {
@@ -345,7 +366,7 @@ button:hover a.alt {
 	text-align: left;
 }
 .info p {
-	color: #276322;
+	color: #000;
 	font-size: 18px;
 }
 .info span {
@@ -404,7 +425,7 @@ button:hover a.alt {
 	text-transform: uppercase;
 	font-weight: 700;
 	z-index: 3;
-	color: #276322;
+	color: #22641c;
 }
 #nostot .nosto h3 {
 	background-color: #fff;
@@ -416,7 +437,7 @@ button:hover a.alt {
 	font-weight: 700;
 	z-index: 3;
 	font-size: 45px;
-	color: #276322;
+	color: #22641c;
 	background-color: #fff;
 	padding: 15px 25px;
 }
@@ -489,7 +510,7 @@ button:hover a.alt {
     width: 100%;
     background-color: #fff;
     padding: 15px 25px;
-	margin-bottom: 0px;
+	margin-bottom: 25px;
 }
 
 .kampanjainfo span {
@@ -507,7 +528,7 @@ button:hover a.alt {
 }
 
 #footer #logo a span:nth-child(3) {
-	color: #de3838;
+	color: #cd2c2c;
 }
 
 #footer {
@@ -524,8 +545,8 @@ button:hover a.alt {
 
 #footer p, #footer li a {
 	color: #000;
-	font-size: 18px;
-	line-height: 30px;
+	font-size: 15px;
+	line-height: 25px;
 	text-decoration: none;
 	margin-bottom: 0;
 }
@@ -541,7 +562,7 @@ button:hover a.alt {
 }
 
 #footer a:hover {
-	color: #de3838;
+	color: #cd2c2c;
 }
 
 #footer #logo {
@@ -557,6 +578,27 @@ button:hover a.alt {
 		color: #fff;
 		padding: 15px 0px;
 		font-size: 15px;
+}
+
+#footer h2 {
+	font-size: 22px;
+	color: #000;
+	margin-top: 0px;
+}
+#footer a.alt {
+	background-color: #cd2c2c;
+	border: none;
+	font-size: 15px;
+	color: #fff;
+}
+#footer button {
+	padding-left: 0px;
+	margin-top: 25px;
+}
+#footer button:hover a.alt {
+	background-color: #242963;
+	color: #fff;
+	border: none;
 }
 
 /*INSPIRAATIO*/
@@ -597,7 +639,7 @@ button {
 	border:none;
 }
 #navigaatio button:focus i.fa-heart, #navigaatio button:focus i.fa-cart-shopping, .nosto .kuvakkeet button:focus i.fa-heart, .nosto .kuvakkeet button:focus i.fa-cart-shopping {
-	color: #de3838;
+	color: #cd2c2c;
 }
 
 .suosikkitag {
@@ -622,7 +664,7 @@ button {
   z-index: 99;
   border: none;
   outline: none; 
-  background-color: #de3838;
+  background-color: #cd2c2c;
   color: #fff; 
   cursor: pointer;
   padding: 5px 20px;

@@ -165,7 +165,7 @@ hr {
 
 /*NAVIGAATIO*/
 #navigaatio {
-	background-color: #276322;
+	background-color: #21641b;
     width: 100%;
     /* top: 60px; */
     left: 0;
@@ -268,6 +268,9 @@ hr {
 	color: #fff;
 	text-align: center;
 }
+#banneri_wrap a.nappi {
+	margin-top: 25px;
+}
 /*PAINIKKEET*/
 a.nappi {
 	display: block;
@@ -277,7 +280,6 @@ a.nappi {
 	color: #242963;
 	padding: 15px 15px;
 	font-size: 18px;
-	margin: 25px 0px;
 	text-decoration: none;
 	font-weight: 500;
 	transform: 0.5s;
@@ -287,18 +289,36 @@ a.nappi:hover {
 	opacity: 0.8;
 	color: #242963;
 }
+#nostot .kat {
+	width: 100%;
+	padding: 15px;
+	text-align: center;
+	display: block;
+	background-color: #242963;
+	padding: 35px 0px;
+}
+#nostot .kat button {
+	width: auto;
+	margin-right: 10px;
+	margin-lefT: 10px;
+}
+#nostot .kat button a {
+	font-size: 14px;
+	padding: 10px;
+}
 
 a.alt {
     color: #242963;
     border: 3px solid #242963;
 }
+button:hover a.nappi {
+	opacity: 0.7;
+}
 button:hover a.alt {
     color: #fff;
     border: 3px solid #242963;
 	background-color: #242963;
-}
-button:hover a.nappi {
-	opacity: 0.7;
+	opacity: 1;
 }
 /*NOSTOT*/
 
@@ -339,7 +359,7 @@ button:hover a.nappi {
 	text-align: left;
 }
 .info p {
-	color: #276322;
+	color: #21641b;
 	font-size: 18px;
 }
 .info span {
@@ -398,7 +418,7 @@ button:hover a.nappi {
 	text-transform: uppercase;
 	font-weight: 700;
 	z-index: 3;
-	color: #276322;
+	color: #21641b;
 }
 #nostot .nosto h3 {
 	background-color: #fff;
@@ -410,7 +430,7 @@ button:hover a.nappi {
 	font-weight: 700;
 	z-index: 3;
 	font-size: 45px;
-	color: #276322;
+	color: #21641b;
 	background-color: #fff;
 	padding: 15px 25px;
 }
@@ -483,7 +503,7 @@ button:hover a.nappi {
     width: 100%;
     background-color: #fff;
     padding: 15px 25px;
-	margin-bottom: 0px;
+	margin-bottom: 25px;
 }
 
 .kampanjainfo span {
@@ -502,7 +522,7 @@ button:hover a.nappi {
 
 #footer {
 	min-height: 300px;
-	background-color: #276322;
+	background-color: #21641b;
 	display: flex;
 	align-items: flex-start;
 	padding: 100px 0px 60px 0px;
@@ -514,8 +534,8 @@ button:hover a.nappi {
 
 #footer p, #footer li a {
 	color: #fff;
-	font-size: 18px;
-	line-height: 30px;
+	font-size: 15px;
+	line-height: 25px;
 	text-decoration: none;
 	margin-bottom: 0;
 }
@@ -544,9 +564,28 @@ button:hover a.nappi {
 }
 
 #alafooter p {
-		color: #FFBDC2;
+		color: #fff;
 		padding: 15px 0px;
 		font-size: 15px;
+}
+#footer h2 {
+	font-size: 22px;
+	color: #fff;
+	margin-top: 0px;
+}
+#footer a.alt {
+	background-color: #FFBDC2;
+	border: none;
+	font-size: 15px;
+}
+#footer button {
+	padding-left: 0px;
+	margin-top: 25px;
+}
+#footer button:hover a.alt {
+	background-color: #242963;
+	color: #fff;
+	border: none;
 }
 
 /*INSPIRAATIO*/
@@ -628,7 +667,7 @@ button {
   opacity: 0.7;
 }
 
-/*@media only screen and (max-width: 1199px) {
+@media only screen and (max-width: 1199px) {
   .block {
     height: 100%;
 	width: 100%;
@@ -647,4 +686,4 @@ button {
 	  color: #000;
 	  
   }
-}*/
+}
