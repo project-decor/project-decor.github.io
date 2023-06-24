@@ -2,7 +2,6 @@
 *
 *
 */
-
 @font-face {
     font-family: 'Poppins';
     src: url('./fonts/Poppins-Bold.eot');
@@ -15,7 +14,6 @@
     font-style: normal;
     font-display: swap;
 }
-
 @font-face {
     font-family: 'Poppins';
     src: url('./fonts/Poppins-Medium.eot');
@@ -28,7 +26,6 @@
     font-style: normal;
     font-display: swap;
 }
-
 @font-face {
     font-family: 'Poppins';
     src: url('./fonts/Poppins-Regular.eot');
@@ -41,7 +38,6 @@
     font-style: normal;
     font-display: swap;
 }
-
 @font-face {
     font-family: 'Poppins';
     src: url('./fonts/Poppins-SemiBold.eot');
@@ -54,7 +50,6 @@
     font-style: normal;
     font-display: swap;
 }
-
 @font-face {
     font-family: 'Poppins';
     src: url('./fonts/Poppins-Light.eot');
@@ -67,7 +62,6 @@
     font-style: normal;
     font-display: swap;
 }
-
 @font-face {
     font-family: 'Playfair Display';
     src: url('./fonts/PlayfairDisplay-Medium.eot');
@@ -80,7 +74,6 @@
     font-style: normal;
     font-display: swap;
 }
-
 @font-face {
     font-family: 'Playfair Display';
     src: url('./fonts/PlayfairDisplay-Regular.eot');
@@ -93,15 +86,10 @@
     font-style: normal;
     font-display: swap;
 }
-
-
-
 /*GLOBAALIT*/
-
 body h1, body h2, body h3, body h4, a, p, span {
 	font-family: "Poppins";
 }
-
 body h1 {
 	font-size: 50px;
 	color: #242963;
@@ -114,17 +102,14 @@ body h2 {
 	line-height: 1.3;
 	margin: 25px 0px;
 }
-
 body p {
 	color: #fff;
 	font-size: 24px;
 	line-height: 1.3;
 }
-
 body a {
 	transition: 0.5s;
 }
-
 hr {
 	border-top: 2px dashed #FFBDC2!important;
 	opacity: 1!important;
@@ -132,7 +117,6 @@ hr {
 	margin: 40px auto!important;
     width: 97%!important;
 }
-
 /*HEADER*/
 #header {
 	background-color: #242963;
@@ -140,13 +124,11 @@ hr {
 	font-weight: 500;
 	font-size: 14px;
 }
-
 #ylaheader {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
 	padding: 10px 0px;
-	
 }
 #ylaheader i {
 	margin-right: 7px;
@@ -162,7 +144,6 @@ hr {
     justify-content: flex-start;
 	align-items: center;
 }
-
 /*NAVIGAATIO*/
 #navigaatio {
 	background-color: #21641b;
@@ -207,8 +188,8 @@ hr {
 }
 #navigaatio ul li a:hover {
 	color: #FFBDC2;
+	text-decoration: underline;
 }
-
 /*LOGO*/
 #logo {
 	text-align: center;
@@ -216,7 +197,6 @@ hr {
 #logo a {
 	text-decoration: none;
 }
-
 #logo a span {
 	font-size: 35px;
 	line-height: 20px;
@@ -228,7 +208,6 @@ hr {
 	margin-left: 35px;
 	color: #FFBDC2;
 }
-
 /*KUVAKKEET*/
 .kuvakkeet {
 	display: flex;
@@ -238,7 +217,6 @@ hr {
 .kuvakkeet img {
 	margin-left: 15px;
 }
-
 /*BANNERI*/
 #banneri {
 	background-image:url('./images/spacejoy-YI2YkyaREHk-NA-unsplash.jpg');
@@ -249,14 +227,11 @@ hr {
 	background-position: right;
 	padding-top: 150px;
 	float: right;
-
 }
-
 #banneri h1 {
 	font-size: 60px;
 	color: #fff;
 }
-
 #banneri_wrap {
 	background-color: #D96F77;
     display: flex;
@@ -306,7 +281,6 @@ a.nappi:hover {
 	font-size: 14px;
 	padding: 10px;
 }
-
 a.alt {
     color: #242963;
     border: 3px solid #242963;
@@ -321,7 +295,6 @@ button:hover a.alt {
 	opacity: 1;
 }
 /*NOSTOT*/
-
 #nostot, #uutuudet, #suosikit, #cta {
 	text-align: center;
 	padding: 0px 0px 90px 0px;
@@ -336,7 +309,6 @@ button:hover a.alt {
 	height:100%;
 	padding:0;
 }
-
 .tuote {
 	width:100%;
 	height: auto;
@@ -351,9 +323,11 @@ button:hover a.alt {
 	transition: 0.5s;
 }
 .nosto .kuvakkeet i:hover {
-	color: #D96F77;
+	color: #D96F77;						
 }
-
+.nosto button h3:hover {
+	text-decoration: underline;
+}
 .info {
 	width: 250px;
 	text-align: left;
@@ -365,24 +339,20 @@ button:hover a.alt {
 .info span {
 	font-size: 14px;
 }
-
 .sisalto {
 	margin: 70px 0px;
 	text-align: left;
 }
-
 #nostot h2, #uutuudet h2, #suosikit h2 {
 	margin-bottom: 20px;
 	color: #fff;
 }
-
 #nostot .nosto {
 	min-width: 200px;
 	min-height: 400px;
 	transition-duration: 500ms;
 	transition-property: border-bottom;
 }
-
 #nostot .nosto:after {
 	content: "";
     border-bottom: 6px solid #242963;
@@ -391,7 +361,6 @@ button:hover a.alt {
     position: absolute;
 	transition: 0.5s;
 }
-
 #nostot .nosto:hover:after {
 	content: "";
     border-bottom: 6px solid #242963;
@@ -399,8 +368,10 @@ button:hover a.alt {
     bottom: 0;
     position: absolute;
 }
-
-
+#nostot .nosto:hover h3 {
+	color: #D96F77;
+	transition: all 0.5s;
+}						 
 .nosto {
     display: flex;
 	flex-direction: column;
@@ -411,7 +382,6 @@ button:hover a.alt {
     background-position: center;
 	position: relative;
 	z-index: 1;
-	
 }
 .nosto h3 {
 	text-align: left;
@@ -434,18 +404,14 @@ button:hover a.alt {
 	background-color: #fff;
 	padding: 15px 25px;
 }
-
 .eyecatch {
 	width:100%;
 	height:100%;
 	background-size: cover;
 }
-
-
 #uutuudet .row:nth-child(1) {
 	margin-bottom: 50px;
 }
-
 #uutuudet h3, #suosikit h3 {
 	text-align: left;
 	text-transform: uppercase;
@@ -455,7 +421,6 @@ button:hover a.alt {
 	font-size: 18px;
 	margin-bottom: 5px;
 }
-
 #uutuudet .nosto, #suosikit .nosto {
 	margin-bottom: 20px;
 	position: relative;
@@ -467,27 +432,22 @@ button:hover a.alt {
 	margin-top: 55px;
 	width: 100%;
 }
-
 /*CTA*/
-
 #cta {
     background-color: #FFBDC2;
     align-items: center;
     justify-content: flex-end;
     margin-bottom: 70px;
 }
-
 #cta .cta {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 	min-height: 500px;
 }
-
 #cta .eyecatch {
 	background-position: center;
 }
-
 .kampanjainfo {
 	display: flex;
 	flex-direction: column;
@@ -495,7 +455,6 @@ button:hover a.alt {
 	justify-content: center;
 	background-color: #fff;
 }
-
 .kampanjainfo h2 {
 	line-height: 1.5;
     color: #242963;
@@ -505,33 +464,26 @@ button:hover a.alt {
     padding: 15px 25px;
 	margin-bottom: 25px;
 }
-
 .kampanjainfo span {
 	width:100%;
 	display: inline-block;
 	font-size: 50px;
 	font-weight: 900;
 }
-
-
 /*FOOTER*/
-
 #footer #logo a span:nth-child(3) {
 	color: #FFBDC2;
 }
-
 #footer {
 	min-height: 300px;
 	background-color: #21641b;
 	display: flex;
 	align-items: flex-start;
 	padding: 100px 0px 60px 0px;
-	
 }
 #alafooter p {
 	margin-bottom: 0!important;
 }
-
 #footer p, #footer li a {
 	color: #fff;
 	font-size: 15px;
@@ -539,30 +491,29 @@ button:hover a.alt {
 	text-decoration: none;
 	margin-bottom: 0;
 }
-
 #footer ul {
 	padding-left:0px;
+	margin-bottom: 0px;
 }
-
 #footer li {
 	list-style: none;
 	margin-bottom:0px;
 	line-height: 27px;
 }
-
 #footer a:hover {
 	color: #FFBDC2;
+	text-decoration: underline;							
 }
-
 #footer #logo {
 	text-align: left;
 }
-
+#footer #logo a:hover {
+	text-decoration: none;
+}					   
 #alafooter {
 	background-color: #242963;
 	text-align:center;
 }
-
 #alafooter p {
 		color: #fff;
 		padding: 15px 0px;
@@ -582,14 +533,20 @@ button:hover a.alt {
 	padding-left: 0px;
 	margin-top: 25px;
 }
+#footer li button {
+	padding-left: 0px;
+	margin-top: 0px;
+}
+#footer li button:hover a {
+	color: #FFBDC2;
+	text-decoration: underline;
+}
 #footer button:hover a.alt {
 	background-color: #242963;
 	color: #fff;
 	border: none;
 }
-
 /*INSPIRAATIO*/
-
 .insp {
 	display: flex;
 	flex-direction: column;
@@ -603,7 +560,6 @@ button:hover a.alt {
 	height: 350px;
 	width: auto;
 }
-
 .inspiroidu {
 	display: flex;
     justify-content: center;
@@ -615,15 +571,13 @@ button:hover a.alt {
 	color: #fff;
 	padding: 15px 25px;
 }
-
-
 .container-fluid {
 	max-width: 1920px!important;
 }
-
 button {
 	background: transparent;
 	border:none;
+	padding: 0px;		  
 }
 #navigaatio button:focus i.fa-heart, #navigaatio button:focus i.fa-cart-shopping {
 	color: #FFBDC2;
@@ -631,7 +585,6 @@ button {
 .nosto .kuvakkeet button:focus i.fa-heart, .nosto .kuvakkeet button:focus i.fa-cart-shopping {
 	color: #D96F77;
 }
-
 .suosikkitag {
 	background-color: #FFBDC2;
     color: #242963;
@@ -643,9 +596,7 @@ button {
     left: -10px;
 	font-size: 17px;
 }
-
 /*totop*/
-
 #totop {
   display: none;
   position: fixed;
@@ -662,11 +613,12 @@ button {
   font-weight: 600;
   transition: 0.7s;
 }
-
 #totop:hover {
   opacity: 0.7;
 }
-
+#notif {
+	display: none;
+}		
 @media only screen and (max-width: 1199px) {
   .block {
     height: 100%;
@@ -684,6 +636,5 @@ button {
   #notif p {
 	  font-size: 20px;
 	  color: #000;
-	  
   }
 }
